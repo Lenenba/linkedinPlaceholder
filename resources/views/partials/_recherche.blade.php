@@ -1,4 +1,4 @@
-                            <div class="bg-white rounded-lg mb-4 shadow-sm border ">
+                            <div class="bg-white rounded-lg shadow-sm border ">
                                 <div class="p-4">
                                 <div class="bg-white flex items-center rounded-full border border-gray-400 mb-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-8 ml-4 text-gray-700">
