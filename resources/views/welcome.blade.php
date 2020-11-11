@@ -22,8 +22,8 @@
     <body>
         <div id="app">
             @include('partials._header')
-            <main class="bg-gray-100 max-h-6xl h-64 mb-40">
-                <div class="h-14 w-full flex-col max-w-6xl relative mx-auto px-6 bg-gray-100">
+            <main class="bg-gray-100">
+                <div class="w-full flex-col max-w-6xl relative mx-auto px-4 bg-gray-100">
                     <div class="flex items-center text-sm py-4 ml-40">  10oz YETI Mug Giveaway Join the hybrid cloud video security webinar & get a YETI mug for free.  
                             <span class="text-gray-600"> &nbsp Pub</span> 
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class=" ml-1 mt-1 h-4">
@@ -34,7 +34,7 @@
                         <div class="w-2/12">
                             @include('partials._leftSide')
                         </div>
-                        <div class="w-6/12 mx-8">
+                        <div class="w-6/12 mx-4">
                             @include('partials._recherche')
 
                             <div class="bg-white rounded-lg border border-gray-400 mb-4">
@@ -78,8 +78,8 @@
                             </div>
                             
                         </div>
-                        <div class="w-3/12 bg-white">
-                            troiss
+                        <div class="w-3/12">
+                           @include('partials._rightSide')
                         </div>
                     </div>
                     @yield('content')
